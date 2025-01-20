@@ -4,14 +4,14 @@
 
 @section('content')
 <!-- Hero Section -->
-<section class="bg-gradient-to-r from-blue-100 to-blue-50 relative overflow-hidden pt-32 pb-24">
+<section class="bg-gradient-to-r from-blue-400 to-blue-900 relative overflow-hidden pt-32 pb-24">
     <div class="absolute inset-0 bg-pattern opacity-10"></div>
     <div class="container px-4 relative">
         <div class="text-center max-w-4xl mx-auto mb-16" data-aos="fade-up">
-            <h1 class="text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+            <h1 class="text-5xl md:text-6xl font-bold text-white mb-6 leading-tight">
                 Transformez votre <span class="text-primary">carte de visite</span><br> en expérience digitale
             </h1>
-            <p class="text-xl text-gray-600 mb-10">
+            <p class="text-xl text-white mb-10">
                 Solutions NFC innovantes pour les professionnels modernes
             </p>
             <div class="flex flex-wrap justify-center gap-4">
@@ -25,7 +25,7 @@
 
         <!-- Forme ondulée -->
         <div class="relative" data-aos="zoom-in" data-aos-delay="300">
-            <img src="{{ asset('assets/images/hero.png') }}" alt="Hero" class="w-full max-w-3xl mx-auto rounded-xl shadow-2xl">
+            <img src="{{ asset('assets/images/landing/saas/nfc.png') }}" alt="Hero" class="w-full max-w-xl mx-auto rounded-xl ">
             <div class="absolute inset-0 bg-primary/10 rounded-xl"></div>
         </div>
     </div>
