@@ -70,7 +70,7 @@
         <div class="bg-primary rounded-2xl p-8 md:p-16 text-center">
             <h2 class="text-3xl font-bold text-white mb-4">Prêt à commencer ?</h2>
             <p class="text-white/80 mb-8">Contactez-nous pour discuter de vos besoins</p>
-            <a href="{{ route('contact') }}" class="inline-block px-6 py-3 bg-white text-primary rounded-lg font-medium hover:bg-gray-100">
+            <a href="#" class="inline-block px-6 py-3 bg-white text-primary rounded-lg font-medium hover:bg-gray-100">
                 Nous contacter
             </a>
         </div>

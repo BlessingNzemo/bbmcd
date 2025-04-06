@@ -47,7 +47,6 @@ class User extends Authenticatable
         ];
     }
 
-
     public function profile()
     {
         return $this->hasOne(Profile::class);
@@ -56,5 +55,15 @@ class User extends Authenticatable
     public function nfcCard()
     {
         return $this->hasOne(NfcCard::class);
+    }
+
+    public function nfcCards()
+    {
+        return $this->hasMany(NfcCard::class);
+    }
+
+    public function socialLinks()
+    {
+        return $this->hasMany(SocialLink::class);
     }
 }

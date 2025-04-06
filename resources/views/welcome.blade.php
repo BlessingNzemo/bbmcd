@@ -196,7 +196,7 @@
                 </div>
             </div>
         </section>
-        
+
         <!-- Features Section -->
         <section class="py-16">
             <div class="container px-4">
@@ -218,7 +218,7 @@
                 </div>
             </div>
         </section>
-        
+
         <!-- Pricing Section -->
         <section class="py-16 bg-gray-50">
             <div class="container px-4">
@@ -232,7 +232,7 @@
                 </div>
             </div>
         </section>
-        
+
         <!-- CTA Section -->
         <section class="py-16">
             <div class="container px-4">

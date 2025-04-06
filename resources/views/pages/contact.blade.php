@@ -27,7 +27,7 @@
                     </div>
                 @endif
 
-                <form action="{{ route('contact.store') }}" method="POST">
+                <form action="#" method="POST">
                     @csrf
                     <div class="grid md:grid-cols-2 gap-6 mb-6">
                         <div>
